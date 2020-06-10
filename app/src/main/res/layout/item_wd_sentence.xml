@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/img_wd_item_sentence_voice"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_wd_item_sen_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Users can access their voice mail remotely."
+            android:textColor="@color/colorLightBlack"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text_wd_item_sen_cn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="用户可以远程获取语音邮件。"
+            android:textColor="@color/colorGrey"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginStart="5dp"
+        android:id="@+id/img_wd_item_sentence_voice"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:padding="3dp"
+        android:layout_alignParentEnd="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/icon_voice" />
+
+</RelativeLayout>

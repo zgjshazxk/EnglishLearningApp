@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wordType">
+        <item>全部单词</item>
+        <item>收藏单词</item>
+        <item>简单词汇</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3675FF</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#4089ff</color>
+    <color name="colorMainBlue">#6C89CA</color>
+    <color name="colorLightBlue">#576D85</color>
+    <color name="colorLittleBlue">#3c3c3c</color>
+    <color name="colorLightGreen">#00BECE</color>
+    <color name="colorLightRed">#FF3A35</color>
+    <color name="colorLittleRed">#FBECEE</color>
+    <color name="colorLightYellow">#FFBC00</color>
+    <color name="colorLightBlack">#717171</color>
+    <color name="colorBgLightBlack">#30343E</color>
+    <color name="colorBgLightBlackTop">#2C3039</color>
+    <color name="colorBlack">#8994A9</color>
+    <color name="colorGrey">#626873</color>
+    <color name="colorLightGrey">#6A6A6A</color>
+    <color name="colorBgOrange">#424242</color>
+    <color name="colorLightWhite">#3c3c3c</color>
+    <color name="colorLittleWhite">#3c3c3c</color>
+    <color name="colorFontWhite">#8994A9</color>
+    <color name="colorMainFont">#8994A9</color>
+    <color name="colorFontInBlue">#ffffff</color>
+    <color name="colorFontInWhite">#8994A9</color>
+    <color name="colorFontInGrey">#8994A9</color>
+    <color name="colorBgWhite">#424242</color>
+    <color name="colorBgLittleWhite">#454545</color>
+    <color name="colorFontAS">#FFFFFF</color>
+</resources>

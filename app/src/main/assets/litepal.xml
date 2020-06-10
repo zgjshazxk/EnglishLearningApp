@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="englishLearning"></dbname>
+    <version value="1"></version>
+    <list>
+        <mapping class="com.usts.englishlearning.database.User"></mapping>
+        <mapping class="com.usts.englishlearning.database.Word"></mapping>
+        <mapping class="com.usts.englishlearning.database.MyDate"></mapping>
+        <mapping class="com.usts.englishlearning.database.Interpretation"></mapping>
+        <mapping class="com.usts.englishlearning.database.Phrase"></mapping>
+        <mapping class="com.usts.englishlearning.database.Sentence"></mapping>
+        <mapping class="com.usts.englishlearning.database.Sentence"></mapping>
+        <mapping class="com.usts.englishlearning.database.UserConfig"></mapping>
+        <mapping class="com.usts.englishlearning.database.DailyData"></mapping>
+        <mapping class="com.usts.englishlearning.database.LearnTime"></mapping>
+        <mapping class="com.usts.englishlearning.database.WordFolder"></mapping>
+        <mapping class="com.usts.englishlearning.database.FolderLinkWord"></mapping>
+    </list>
+</litepal>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:background="@color/colorBgWhite"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/text_itls_word"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:maxLines="1"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:singleLine="true"
+        android:text="diet"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        autofit:minTextSize="10sp" />
+
+    <TextView
+        android:id="@+id/text_itls_mean"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="4"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="这里是释义"
+        android:textColor="@color/colorGrey" />
+
+    <ImageView
+        android:id="@+id/img_itls_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:padding="5dp"
+        android:src="@drawable/icon_search" />
+
+</LinearLayout>

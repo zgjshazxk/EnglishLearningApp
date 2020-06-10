@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_wd_item_phrase_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="internet access"
+        android:textColor="@color/colorLightBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_wd_item_phrase_cn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="互联网接入"
+        android:textColor="@color/colorGrey"
+        android:textSize="13sp" />
+
+</LinearLayout>

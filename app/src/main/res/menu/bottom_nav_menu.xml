@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bnavigation_word"
+        android:icon="@drawable/icon_bottom_word"
+        android:title="单词" />
+    <item
+        android:id="@+id/bnavigation_review"
+        android:icon="@drawable/icon_bottom_review"
+        android:title="复习" />
+    <item
+        android:id="@+id/bnavigation_me"
+        android:icon="@drawable/icon_bottom_me"
+        android:title="我" />
+
+</menu>
